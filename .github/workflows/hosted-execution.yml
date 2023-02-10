@@ -46,8 +46,6 @@ jobs:
         entrypoint: [
           "pipenv run best-practice-desktop-us",
           "pipenv run best-practice-mobile-web-vdc-us",
-          "pipenv run best-practice-mobile-web-rdc-us",
-          "pipenv run best-practice-mobile-native-us-ios",
         ]
     steps:
     - uses: actions/checkout@v2
