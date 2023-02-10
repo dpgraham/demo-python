@@ -45,8 +45,8 @@ jobs:
       matrix:
         entrypoint: [
           "pipenv run best-practice-desktop-us",
-          "pipenv run best-practice-mobile-web-us",
-          "pipenv run best-practice-mobile-native-us-android",
+          "pipenv run best-practice-mobile-web-vdc-us",
+          "pipenv run best-practice-mobile-web-rdc-us",
           "pipenv run best-practice-mobile-native-us-ios",
         ]
     steps:
