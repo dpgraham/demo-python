@@ -43,7 +43,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        entrypoint: [ 
+        entrypoint: [
           "pipenv run best-practice-desktop-us",
           "pipenv run best-practice-mobile-web-vdc-us",
         ]
